@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+  font-family: 'Nunito', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner{
+  width: 100%;
+  height: 100vh;
+  background: url("images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.logo{
+  /* background: url("images/logo.png"); */
+  width: 15%;
+  height: auto;
+  background-repeat: no-repeat;
+  margin-left: 60px;
+  margin-top: 80px;
+  /* background-color: wheat; */
+}
+
+.img_mod{
+  width: 50%;
+  height: 15vh;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar_content{
+  display: flex;
+  height: 100px;
+  align-items: center;
+  /* background-color: white; */
+  justify-content: space-between;
+}
+
+.ul_content{
+  width: 40%;
+  height: 10vh;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.ul_content li {
+  list-style: none;
+  padding: 50px;
+}
+
+.ul_content li a {
+  text-decoration: none;
+  color:yellow;
+}
+
+.about_img{
+  background-image: url('./images/fix.jpg');
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  display: flex;
+  padding: 200px;
+}
+
+.left_about{
+  width: 40%;
+  height: 40vh;
+  background-color: aliceblue;
+}
+
+.welcome_div{
+  background-color: white;
+  height: 40vh;
+  width: 100%;
+  padding: 20px;
+}
+
+.design_div {
+  margin: 0 auto;
+  width: 90%;
+  height: 40vh;
+  background-color: beige;
+}
+
+.title_div {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px 400px;
+  background-color: darkgoldenrod;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.title_div h2 {
+  font-family: 'Nunito', sans-serif;
+}
+
+.title_div p {
+  margin: 0 auto;
+}
+
+.knowledge{
+  width: 80%;
+  height: 25vh;
+  background-color: darkorchid;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap ;
+}
+
+.progress{
+  width: 30%;
+  height: 8vh;
+  background-color: skyblue;
+  margin: 0 auto;
+  margin-top: 20px;
+  
+}
+
+.progress h4 {
+  text-align: center;
+  margin-top: 15px;
+
+}
+
+.progress_bar{
+  /* padding: 20px; */
+  width: 90%;
+  height: 1vh;
+  background-color: #e9ecef;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.progress_display{
+  width: 55%;
+  height: 1vh;
+  background-color: black;
+  margin: 0 auto;
+  border-radius: 50px;
+}
