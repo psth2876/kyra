@@ -77,7 +77,11 @@ code {
 
 .ul_content li a {
   text-decoration: none;
-  color:yellow;
+  color:white;
+}
+
+.ul_content li a:hover{
+  color: yellow;
 }
 
 .about_img{
@@ -92,7 +96,12 @@ code {
 .left_about{
   width: 40%;
   height: 40vh;
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
+  color: rgba(170, 168, 168, 0.884);
+}
+
+.left_about h4{
+  text-align: justify;
 }
 
 .welcome_div{
@@ -164,4 +173,127 @@ code {
   background-color: black;
   margin: 0 auto;
   border-radius: 50px;
+}
+
+.contact_div{
+  background-color: white;
+  height: 60vh;
+  width: 100%;
+  background-image: url('./images/foods.jpg');
+  object-fit: scale-down;
+  padding: 70px 100px;
+}
+
+.hire_div{
+  width: 70%;
+  height: 55vh;
+  /* background-color: blanchedalmond; */
+  padding: 10px 50px;
+  margin: 0 auto;
+  
+}
+
+.hire_title{
+  height: 15vh;
+  width: 70%;
+  /* background-color: blueviolet; */
+  margin: 0 auto;
+  color: white;
+}
+.hire_title p {
+  z-index: 1;
+  position: relative;
+}
+
+.hire_stats{
+  width: 1005;
+  height: 35vh;
+  /* background-color: darkcyan; */
+  padding: 60px 60px;
+  display: flex;
+
+}
+
+.hire_category{
+  width: 35%;
+  height: 25vh;
+  /* background-color: #ffffff; */
+  background: rgba(255, 255, 255, 0.1);;
+  margin-left: 2%;
+  border-radius: 4px;
+  color: white;
+  transition: 0.3s ease-out;
+  
+}
+
+.timeline_div{
+  height: 100vh;
+  width: 100%;
+
+}
+
+.hire_logo{
+  background-image: url('./images/logo.png');
+  height: 12vh;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 3%;
+  /* background-color: gainsboro; */
+  background-repeat: no-repeat;
+  background-position-x: center;
+  
+}
+
+.hire_cat_desc p{
+  color: white;
+
+}
+
+.hire_cat_name h3{
+  text-align: center;
+}
+
+.hire_category:hover{
+  background-color: black;
+  opacity: 0.7;
+  
+}
+
+.timeline_div {
+  background-image: url('./images/2.jpg');
+  background-position-y: center;
+  width: 100%;
+  height: 90vh;
+  opacity: 0.9;
+  background-attachment: fixed;
+  color: white;
+}
+
+.timeline_columns{
+  width: 90%;
+  height: 70vh;
+  background-color: darkgoldenrod;
+  margin: 0 auto;
+  padding: 20px 80px;
+  display: flex;
+}
+
+.timeline_column1{
+  width: 50%;
+  height: 70vh;
+  background-color: darkorchid;
+}
+
+.timeline_column1 h1{
+  text-align: center;
+}
+
+.timeline_column2{
+  width: 50%;
+  height: 70vh;
+  background-color: darkgrey;
+}
+
+.timeline_column2 h1{
+  text-align: center;
 }
