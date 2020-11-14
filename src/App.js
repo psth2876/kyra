@@ -5,6 +5,7 @@ import './index.css';
 import WelcomeNote from './Components/WelcomeNote';
 import Contact from './Components/Contact';
 import Timeline from './Components/Timeline';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <About/>
       <Contact/>
       <Timeline/>
+      <Footer/>
     </div>
   );
 }
